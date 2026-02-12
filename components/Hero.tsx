@@ -120,7 +120,7 @@ export const Hero: React.FC<HeroProps> = ({ setView }) => {
               transition={{ duration: 0.6 }}
             >
               <img 
-                src="https://images.unsplash.com/photo-1551288049-bbbda5366391?auto=format&fit=crop&q=80&w=2000" 
+                src="./public/Gemini.png" 
                 alt="Glacier Interface" 
                 className="rounded-[48px] w-full object-cover aspect-[21/9] brightness-[1.02] grayscale-[0.2] hover:grayscale-0 transition-all duration-700"
               />
