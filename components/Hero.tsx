@@ -119,11 +119,11 @@ export const Hero: React.FC<HeroProps> = ({ setView }) => {
               whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.6 }}
             >
-              <img 
-                src="./public/Gemini.png" 
-                alt="Glacier Interface" 
-                className="rounded-[48px] w-full object-cover aspect-[21/9] brightness-[1.02] grayscale-[0.2] hover:grayscale-0 transition-all duration-700"
-              />
+              <img
+  src="/Gemini.png"
+  alt="Glacier Interface"
+  className="rounded-[48px] w-full object-cover aspect-[21/9] brightness-[1.02] grayscale-[0.2] hover:grayscale-0 transition-all duration-700"
+/>
             </motion.div>
           </div>
         </motion.div>
